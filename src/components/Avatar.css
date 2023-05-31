@@ -1,0 +1,53 @@
+.avatar {
+    width:300px;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 6px rgba(0,0,0,0.52);
+    text-align: center;
+}
+
+.avatarPic {
+    margin: auto;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    overflow: hidden;
+
+}
+
+.avatar img {
+    height: 100%;
+}
+
+.avatar span {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.nickname {
+    font-size: 1rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.email {
+    font-size: 1.1rem;
+}
+
+
+.avatar button {
+    font-size: 1.1rem;
+
+}
+
+.avatar input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom:0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
